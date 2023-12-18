@@ -13,6 +13,7 @@
         <title>JSP Page</title>
         <%!
             HttpSession session;
+            // 123
             // 使用文字宣告做為預設密碼
             String [ ] users = { "user01", "user02", "user03"};
             String [ ] pass ={ "123", "456", "789"};
