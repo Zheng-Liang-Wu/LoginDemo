@@ -55,6 +55,7 @@
             session.setAttribute("isLogin", true);
             response.sendRedirect("/LoginDemo/member/page.jsp");
           }
+          // 123
           else 
           {
             response.sendRedirect("/LoginDemo/member/nologin.html");
